@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coming Soon</title>
+    <style>
+        /* Center the content */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Rotate the image */
+        .rotate {
+            animation: rotation 5s infinite linear;
+        }
+        
+        /* Keyframes for rotation animation */
+        @keyframes rotation {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        
+        /* Resize the image */
+        img {
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <img src="pollen.png" alt="Pollen" class="rotate">
+    <h1>Coming Soon</h1>
+</body>
+</html>
