@@ -1,2 +1,2 @@
-# pollen-comingsoon
+# peertube_placeholder
 Coming Soon, don't mind me.
