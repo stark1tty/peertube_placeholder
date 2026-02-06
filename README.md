@@ -2,6 +2,8 @@
 
 A simple "Coming Soon" placeholder page for [peertube.science](https://peertube.science), displayed while the full [PeerTube](https://joinpeertube.org/) instance is being set up.
 
+![Preview](preview.gif)
+
 ## Overview
 
 This serves a static landing page with the PeerTube logo and a "Coming Soon" message via nginx in a Docker container on port 9334.
