@@ -1,0 +1,7 @@
+services:
+  peertube-placeholder:
+    build: .
+    container_name: peertube-placeholder
+    ports:
+      - "9334:9334"
+    restart: unless-stopped
